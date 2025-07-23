@@ -28,4 +28,4 @@ The Counter App is a simple app where the user can:
 
 ## 📷 Screenshot
 
-<img src="./counter.jpg" alt="Counter App Screenshot" width="350"/>
+<img src="./counter.jpg" alt="Counter App Screenshot" width="400"/>
