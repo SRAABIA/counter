@@ -1,16 +1,24 @@
-# counter
+# Counter App 
 
-A new Flutter project.
 
-## Getting Started
+This app was built to understand the following Flutter concepts:
 
-This project is a starting point for a Flutter application.
+- **Stateful vs Stateless Widgets**
+- **Navigation: `push` and `pop`**
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 App Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The Counter App is a simple app where the user can:
+- Press a button to increase a counter value.
+- Navigate to another page.
+- Return using the back button.
+- 
+## 🔄 Concepts Explained
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Concept                 | One-Line Explanation                                                  |
+|-------------------------|------------------------------------------------------------------------|
+| StatelessWidget         | A widget that never changes once built.                               |
+| StatefulWidget          | A widget that can change dynamically using state.                     |
+| setState()              | Triggers a UI rebuild when the widget's state changes.                |
+| Navigator.push()        | Moves to a new screen by adding it to the navigation stack.           |
+| Navigator.pop()         | Returns to the previous screen by removing the current one.           |
