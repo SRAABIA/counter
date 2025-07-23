@@ -1,4 +1,5 @@
 import 'package:counter/counter.dart';
+import 'package:counter/page2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: counter(),
+      // home: counter(),
+      initialRoute: counter.id,
+      routes: {
+        counter.id: (context) => counter(),
+        page2.id: (context) => page2(),
+      },
     );
   }
 }

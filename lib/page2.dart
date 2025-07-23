@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class page2 extends StatelessWidget {
+  static const String id = 'page2';
   const page2({super.key});
 
   @override

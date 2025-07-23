@@ -5,6 +5,7 @@ This app was built to understand the following Flutter concepts:
 
 - **Stateful vs Stateless Widgets**
 - **Navigation: `push` and `pop`**
+- **Routes**
 
 ## 📱 App Overview
 
@@ -22,3 +23,5 @@ The Counter App is a simple app where the user can:
 | setState()              | Triggers a UI rebuild when the widget's state changes.                |
 | Navigator.push()        | Moves to a new screen by adding it to the navigation stack.           |
 | Navigator.pop()         | Returns to the previous screen by removing the current one.           |
+| Navigator.pushNamed()   | Navigates to a named route defined in the app’s route table.          |
+| Routes (Named Routing)  | Defines a map of route names to widget builders for organized nav.    |

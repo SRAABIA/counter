@@ -2,6 +2,7 @@ import 'package:counter/page2.dart';
 import 'package:flutter/material.dart';
 
 class counter extends StatefulWidget {
+  static const String id = 'counter';
   const counter({super.key});
 
   @override
@@ -28,7 +29,8 @@ class _counterState extends State<counter> {
                     child: Icon(Icons.downloading_outlined,size: 50,color: Colors.blue,),
                 ),
                 TextButton(onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> page2()));
+                  // Navigator.push(context, MaterialPageRoute(builder: (context)=> page2()));
+                  Navigator.pushNamed(context, page2.id);
                 },
                     child: Text('Page 2',style:
                     TextStyle(
