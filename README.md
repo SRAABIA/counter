@@ -25,3 +25,7 @@ The Counter App is a simple app where the user can:
 | Navigator.pop()         | Returns to the previous screen by removing the current one.           |
 | Navigator.pushNamed()   | Navigates to a named route defined in the app’s route table.          |
 | Routes (Named Routing)  | Defines a map of route names to widget builders for organized nav.    |
+
+## 📷 Screenshot
+
+<img src="./counter.jpg" alt="Counter App Screenshot" width="350"/>
