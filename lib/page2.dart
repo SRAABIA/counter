@@ -7,13 +7,27 @@ class page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-        body: Center(
-          child: TextButton(
-              onPressed: (){
-                Navigator.pop(context);
-              },
-              child: Text('Go back 💀'))
-        ),
-      );
+      appBar: AppBar(
+        title: Text('Page 2'),
+        centerTitle: true,
+        backgroundColor: Colors.blue,
+      ),
+        body: Expanded(
+            child: ListView.builder(
+                itemCount: 10,
+                itemBuilder: (context,item){
+              return ListTile(
+                leading: Icon(Icons.add_a_photo),
+                title: Text('Item $item'),
+                subtitle: Text('Subtitle $item'),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  // Navigator.pop(context);
+                }
+              );
+            }
+            )
+      )
+    );
   }
 }
